@@ -1,0 +1,89 @@
+baseURL = 'https://serendip3.github.io/blog/'
+title = 'Serendip - 어느날 우연히 찾아온 행운'
+languageCode = 'ko-KR'
+defaultContentLanguage = 'ko'
+hasCJKLanguage = true
+theme = 'LoveIt'
+
+enableRobotsTXT = true
+enableEmoji = true
+
+[pagination]
+  pagerSize = 10
+  path = 'page'
+
+[params]
+  defaultTheme = 'auto'
+  dateFormat = '2006-01-02'
+  description = 'Serendip이 담아내는 우연과 영감의 기록'
+  images = ['/images/share.png']
+
+  [params.author]
+    name = 'Serendip'
+
+  [params.home]
+    rss = 10
+    [params.home.profile]
+      enable = true
+      avatarURL = ''
+      title = 'Serendip'
+      subtitle = '우연히 찾아온 행운을 기록하는 곳'
+      typeit = false
+      social = true
+    [params.home.posts]
+      enable = true
+      paginate = 6
+
+  [params.header]
+    desktopMode = 'fixed'
+    mobileMode = 'auto'
+    [params.header.title]
+      logo = ''
+      name = 'Serendip'
+      pre = ''
+      post = ''
+      typeit = false
+
+  [params.page]
+    [params.page.code]
+      copy = true
+      maxShownLines = 50
+      [params.page.code.render]
+        mermaid = true
+        goat = true
+
+  [params.library]
+    css = ['css/custom.css']
+
+[menu]
+  [[menu.main]]
+    identifier = 'posts'
+    name = 'Posts'
+    url = '/posts/'
+    weight = 1
+  [[menu.main]]
+    identifier = 'tags'
+    name = 'Tags'
+    url = '/tags/'
+    weight = 2
+  [[menu.main]]
+    identifier = 'categories'
+    name = 'Categories'
+    url = '/categories/'
+    weight = 3
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = true
+    style = 'friendly'
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 6

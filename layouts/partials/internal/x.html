@@ -1,0 +1,9 @@
+{{- $user := .Get "user" -}}
+{{- $id := .Get "id" -}}
+{{- if and $user $id -}}
+<blockquote class="tweet-embed">
+  <a href="https://x.com/{{ $user }}/status/{{ $id }}" rel="noopener" target="_blank">View post on X</a>
+</blockquote>
+{{- else -}}
+<!-- x shortcode missing required parameters -->
+{{- end -}}

@@ -1,0 +1,8 @@
+{{- $src := .Get "src" | default (.Get "id") -}}
+{{- if $src -}}
+<div class="instagram-embed">
+  <a href="https://www.instagram.com/p/{{ $src }}/" rel="noopener" target="_blank">View on Instagram</a>
+</div>
+{{- else -}}
+<!-- instagram shortcode missing parameters -->
+{{- end -}}

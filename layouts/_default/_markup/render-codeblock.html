@@ -1,0 +1,5 @@
+{{- $context := dict "Content" .Inner "Lang" .Type "Options" .Options "Page" .Page -}}
+{{- partial "plugin/code-block.html" $context -}}
+{{- define "_default/_markup/render-codeblock.html" -}}
+  {{- partial "plugin/code-block.html" (dict "Content" .Inner "Lang" .Type "Options" .Options "Page" .Page) -}}
+{{- end -}}
