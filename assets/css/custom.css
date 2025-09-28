@@ -1,0 +1,4 @@
+/* Extra spacing beneath post meta block */
+.page.single .post-meta {
+  margin-bottom: 1.75rem;
+}

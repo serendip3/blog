@@ -1,0 +1,12 @@
+# Hugo build artifacts
+public/
+resources/
+
+# Hugo cache
+.hugo_build.lock
+
+# Node modules (just in case the theme or tooling uses npm)
+node_modules/
+
+# macOS metadata
+.DS_Store
