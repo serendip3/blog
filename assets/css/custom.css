@@ -2,3 +2,13 @@
 .page.single .post-meta {
   margin-bottom: 1.75rem;
 }
+
+/* Increase default line height for post body text */
+.page.single .content {
+  line-height: 1.75;
+}
+
+/* Keep lists consistent with the relaxed line height */
+.page.single .content li {
+  line-height: 1.6;
+}
