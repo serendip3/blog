@@ -52,8 +52,9 @@ enableEmoji = true
         mermaid = true
         goat = true
 
-  [params.library]
-    css = ['css/custom.css']
+    [params.page.library]
+      css = ['css/custom.css']
+
 
 [menu]
   [[menu.main]]
