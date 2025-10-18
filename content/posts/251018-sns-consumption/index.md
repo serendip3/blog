@@ -1,7 +1,7 @@
 +++
 date = '2025-10-18T10:00:00+09:00'
 title = '251018 - SNS 소비 기록'
-tags = ['SNS 소비', '부동산 정책', 'AI', '칩 설계']
+tags = ['SNS 소비', '부동산', 'AI', '칩 설계']
 categories = ['SNS 소비']
 
 [[resources]]
