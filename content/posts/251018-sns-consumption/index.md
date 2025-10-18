@@ -17,7 +17,7 @@ categories = ['SNS 소비']
 ### OpenAI, 자체 칩 설계와 LLM 적용 사례 공개
 [OpenAI @openai](https://x.com/openai/status/1977794196955374000?s=46&t=SyViUmDzvRAUfiid_TT4nQ)
 
-LLM 선두 그룹이 자체 칩을 만든다는 소문은 계속 돌았지만, OpenAI가 브로드컴과 Chip을 만들고 있다고 공개 했습니다. 공급망을 붙잡고 훈련 비용을 줄이려는 움직임으로 보이는데, 더 눈에 띈 건 그렉 브록맨의 코멘트. “We’ve gotten some amazing lift out of applying our models to chip design”이라면서 이미 자사 모델로 설계를 돕고 있다고 했습니다. EDA 워크플로에 GPT를 넣어 결과를 보고 있다는 거죠. 이 흐름이 본격화되면 엔비디아, 브로드컴 같은 팹리스뿐 아니라 시놉시스, 케이던스 같은 EDA 소프트웨어 회사들까지 판이 빨리 바뀔 수도 있겠다는 생각이 듭니다. 한마디로 모델 경쟁력이 하드웨어 최적화까지 확장되는 그림이 현실이 되는 중입니다.
+LLM 선두 그룹이 자체 칩을 만든다는 소문은 계속 돌았는데, OpenAI가 브로드컴과 Chip을 만들고 있다고 공개 했습니다. 공급망을 붙잡고 훈련 비용을 줄이려는 움직임으로 보이는데, 더 눈에 띈 건 그렉 브록맨의 코멘트. “We’ve gotten some amazing lift out of applying our models to chip design”이라면서 이미 자사 모델로 설계를 돕고 있다고 했습니다. EDA 워크플로에 GPT를 넣어 결과를 보고 있다는 거죠. 이 흐름이 본격화되면 엔비디아, 브로드컴 같은 팹리스뿐 아니라 시놉시스, 케이던스 같은 EDA 소프트웨어 회사들까지 판이 빨리 바뀔 수도 있겠다는 생각이 듭니다. 한마디로 모델 경쟁력이 하드웨어 최적화까지 확장되는 그림이 현실이 되는 중입니다.
 
 ### AI 시대 조직의 필수 조건 - 디지털화가 먼저다
 [노정석 - EP 70. 100x 엔지니어의 Claude Code 활용법](https://youtu.be/Og0mtAbDrDY?si=LAq2uzRMfX7NPsfr)
