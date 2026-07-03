@@ -1,16 +1,42 @@
-/* Extra spacing beneath post meta block */
+/* Make single posts read closer to Paper's calmer typography */
+.page.single .single-title {
+  font-size: 1.8rem;
+  line-height: 1.35;
+  margin-bottom: 0.75rem;
+}
+
 .page.single .post-meta {
+  font-size: 0.8125rem;
+  line-height: 1.7;
   margin-bottom: 1.75rem;
+  opacity: 0.78;
 }
 
-/* Increase default line height for post body text */
 .page.single .content {
-  line-height: 1.75;
+  font-size: 1.0625rem;
+  line-height: 1.8;
 }
 
-/* Keep lists consistent with the relaxed line height */
+.page.single .content p {
+  margin: 0.75rem 0;
+}
+
 .page.single .content li {
-  line-height: 1.6;
+  line-height: 1.7;
+}
+
+.page.single .content ol > li + li,
+.page.single .content ul > li + li {
+  margin-top: 0.75rem;
+}
+
+.page.single .content h2 {
+  margin-top: 2rem;
+}
+
+.page.single .content h3,
+.page.single .content h4 {
+  margin-top: 1.6rem;
 }
 
 /* Add card-style separation on the home post list */
